@@ -1,0 +1,56 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-bg-color: #ffffff;
+  --primary-accent-color: #2196f3;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+a {
+  text-decoration: unset;
+}
+
+.logo {
+  color: #000000;
+}
+
+.aktcent {
+  color: var(--primary-accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link-nav {
+  color: var(--primary-text-color);
+}
+
+.link-contact {
+  color: #757575;
+}
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus,
+.contact .link-contact:hover,
+.contact .link-contact:focus {
+  color: var(--primary-accent-color);
+}
+
+/* .company-title {
+  color: #ffffff;
+} */
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.section-subtitle {
+  color: var(--primary-text-color);
+}
