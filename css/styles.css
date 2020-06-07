@@ -11,6 +11,11 @@
 .page {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 a {
   text-decoration: unset;
@@ -18,14 +23,30 @@ a {
 
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .aktcent {
   color: var(--primary-accent-color);
 }
 
-.list {
+.list,
+.list-product {
   list-style: none;
+}
+
+.site-nav {
+  font-family: Roboto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link-nav {
@@ -43,14 +64,73 @@ a {
   color: var(--primary-accent-color);
 }
 
-/* .company-title {
-  color: #ffffff;
-} */
+.site-nav .link-nav.current {
+  color: var(--primary-accent-color);
+}
+.company-title {
+  /* color: #ffffff; */
+  font-family: Roboto;
 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .section-title {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section-subtitle {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.team-title {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--primary-accent-color);
+  font-family: inherit;
+}
+
+/* страница портфолио */
+
+.button-nav {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.list-product .button-nav:hover,
+.list-product .button-nav:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--primary-accent-color);
 }
