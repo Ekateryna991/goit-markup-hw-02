@@ -1,5 +1,6 @@
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #757575;
   --primary-bg-color: #ffffff;
   --primary-accent-color: #2196f3;
 }
@@ -55,7 +56,7 @@ a {
 }
 
 .link-contact {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .site-nav .link-nav:hover,
@@ -116,6 +117,7 @@ a {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .button {
   color: var(--primary-bg-color);
@@ -127,6 +129,17 @@ a {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.list-item-aboutus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+  background: rgba(47, 48, 58, 0.8);
 }
 
 /* страница портфолио */
@@ -159,14 +172,15 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .technokryak {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
-  /* color: var(--primary-bg-color); */
+  color: var(--primary-bg-color);
+  background-color: rgba(33, 150, 243, 0.9);
 }
 
 /* Футер */
@@ -180,6 +194,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .address-link {
