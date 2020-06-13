@@ -18,6 +18,35 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+/* цвет секции для разметки */
+.company {
+  background-color: brown;
+}
+.advantage {
+  background-color: chartreuse;
+}
+.aboutus {
+  background-color: darkblue;
+}
+.our-team {
+  background-color: deeppink;
+}
+.customers {
+  background-color: gold;
+}
+
+/*  */
+
 a {
   text-decoration: unset;
 }
@@ -38,6 +67,8 @@ a {
 
 .list,
 .list-product {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -53,10 +84,19 @@ a {
 
 .link-nav {
   color: var(--primary-text-color);
+
+  /* background-color: indianred; */
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-contact {
   color: var(--secondary-text-color);
+}
+
+.contact .item + .item {
+  margin-left: 30px;
 }
 
 .site-nav .link-nav:hover,
@@ -69,19 +109,43 @@ a {
 .site-nav .link-nav.current {
   color: var(--primary-accent-color);
 }
+
+.header,
+.site-nav,
+.contact {
+  display: flex;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.company {
+  text-align: center;
+}
+
 .company-title {
   /* color: #ffffff; */
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  width: 696px;
   font-family: Roboto;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .section-title {
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -93,6 +157,9 @@ a {
 .section-subtitle {
   color: var(--primary-text-color);
 
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -101,8 +168,27 @@ a {
   text-transform: uppercase;
 }
 
+/* .advantage { 
+  margin-top: 0;
+  margin-bottom: 0px;
+}*/
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*Наша команда */
+
+.team-photo {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 .team-title {
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -118,11 +204,22 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 16px;
 }
+
 .button {
   color: var(--primary-bg-color);
   background-color: var(--primary-accent-color);
   font-family: inherit;
+
+  border-radius: 4px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
+  display: inline-block;
+  padding: 10px 32px;
 
   font-weight: 700;
   font-size: 16px;

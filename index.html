@@ -8,185 +8,231 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <!--Шапка сайта-->
+
     <header>
-      <nav>
-        <a href="" class="logo"><span class="aktcent">Web</span> Studio</a>
-        <ul class="site-nav list">
-          <li><a href="" class="link-nav current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link-nav">Портфолио</a></li>
-          <li><a href="" class="link-nav">Контакты</a></li>
+      <div class="header container">
+        <nav>
+          <a href="" class="logo"><span class="aktcent">Web</span> Studio</a>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="" class="link-nav current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link-nav">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="" class="link-nav">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact list">
+          <li class="item">
+            <a href="" class="link-contact">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="" class="link-contact">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="contact list">
-        <li><a href="" class="link-contact">info@devstudio.com</a></li>
-        <li><a href="" class="link-contact">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
+
     <main>
       <!--Наша компания-->
       <section class="company">
-        <h1 class="company-title">Эффективные решения для вашего бизнеса</h1>
-        <a href="" class="button">Заказать услугу</a>
+        <div class="container">
+          <h1 class="company-title container">
+            Эффективные решения для вашего бизнеса
+          </h1>
+          <a href="" class="button">Заказать услугу</a>
+        </div>
       </section>
 
       <!--Идейные соображения-->
-      <section class="section">
-        <ul class="list">
-          <li>
-            <img src="./img/Vector1.svg" alt="" />
-            <h3 class="section-subtitle">Внимание к деталям</h3>
-            <p class="list-item">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img src="./img/Vector2.svg" alt="" />
-            <h3 class="section-subtitle">Пунктуальность</h3>
-            <p class="list-item">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img src="./img/Vector.svg" alt="" />
-            <h3 class="section-subtitle">Планирование</h3>
-            <p class="list-item">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img src="./img/Group.svg" alt="" />
-            <h3 class="section-subtitle">Современные технологии</h3>
-            <p class="list-item">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="advantage section">
+        <div class="container">
+          <ul class="list">
+            <li>
+              <img src="./img/Vector1.svg" alt="" />
+              <h3 class="section-subtitle">Внимание к деталям</h3>
+              <p class="list-item advantage">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <img src="./img/Vector2.svg" alt="" />
+              <h3 class="section-subtitle">Пунктуальность</h3>
+              <p class="list-item advantage">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <img src="./img/Vector.svg" alt="" />
+              <h3 class="section-subtitle">Планирование</h3>
+              <p class="list-item advantage">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <img src="./img/Group.svg" alt="" />
+              <h3 class="section-subtitle">Современные технологии</h3>
+              <p class="list-item advantage">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Чем мы занимаемся-->
-      <section class="section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img src="./img/img5.jpg" alt="Ноутбук" width="270" />
-            <p class="list-item-aboutus">Десктопные приложения</p>
-          </li>
-          <li>
-            <img src="./img/img6.jpg" alt="Мобильный телефон" width="270" />
-            <p class="list-item-aboutus">Мобильные приложения</p>
-          </li>
-          <li>
-            <img src="./img/img7.jpg" alt="Монитор" width="270" />
-            <p class="list-item-aboutus">Дизайнерские решения</p>
-          </li>
-        </ul>
+      <section class="aboutus section">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li>
+              <img src="./img/img5.jpg" alt="Ноутбук" width="270" />
+              <p class="list-item-aboutus">Десктопные приложения</p>
+            </li>
+            <li>
+              <img src="./img/img6.jpg" alt="Мобильный телефон" width="270" />
+              <p class="list-item-aboutus">Мобильные приложения</p>
+            </li>
+            <li>
+              <img src="./img/img7.jpg" alt="Монитор" width="270" />
+              <p class="list-item-aboutus">Дизайнерские решения</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Наша команда-->
-      <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul lang="en" class="list">
-          <li>
-            <img
-              src="./img/img8.jpg"
-              alt="Фото Николая Кучеренко"
-              width="270"
-            />
-            <h3 class="team-title">Николай Кучеренко</h3>
-            <p class="team-text">Product Designer</p>
-            <ul class="list">
-              <li><a href="" class="button">instagram</a></li>
-              <li><a href="">twitter</a></li>
-              <li><a href="">facebool</a></li>
-              <li><a href="">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img src="./img/img9.jpg" alt="Фото Ольги Ивановой" width="270" />
-            <h3 class="team-title">Ольга Иванова</h3>
-            <p class="team-text">Frontend Developer</p>
-            <ul class="list">
-              <li><a href="">instagram</a></li>
-              <li><a href="">twitter</a></li>
-              <li><a href="">facebool</a></li>
-              <li><a href="">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img src="./img/img10.jpg" alt="Фото Андрея Шевченко" width="270" />
-            <h3 class="team-title">Андрей Шевченко</h3>
-            <p class="team-text">Marketing</p>
-            <ul class="list">
-              <li><a href="">instagram</a></li>
-              <li><a href="">twitter</a></li>
-              <li><a href="">facebool</a></li>
-              <li><a href="">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img src="./img/img11.jpg" alt="Фото Ивана Николаева" width="270" />
-            <h3 class="team-title">Иван Николаев</h3>
-            <p class="team-text">UI Designer</p>
-            <ul class="list">
-              <li><a href="">instagram</a></li>
-              <li><a href="">twitter</a></li>
-              <li><a href="">facebool</a></li>
-              <li><a href="">linkedin</a></li>
-            </ul>
-          </li>
-        </ul>
+      <section class="our-team section">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img
+                class="team-photo"
+                src="./img/img8.jpg"
+                alt="Фото Николая Кучеренко"
+                width="270"
+              />
+              <h3 class="team-title">Николай Кучеренко</h3>
+              <p class="team-text">Product Designer</p>
+              <ul class="list">
+                <li><a href="" class="button">instagram</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">facebool</a></li>
+                <li><a href="">linkedin</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./img/img9.jpg"
+                alt="Фото Ольги Ивановой"
+                width="270"
+              />
+              <h3 class="team-title">Ольга Иванова</h3>
+              <p class="team-text">Frontend Developer</p>
+              <ul class="list">
+                <li><a href="">instagram</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">facebool</a></li>
+                <li><a href="">linkedin</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./img/img10.jpg"
+                alt="Фото Андрея Шевченко"
+                width="270"
+              />
+              <h3 class="team-title">Андрей Шевченко</h3>
+              <p class="team-text">Marketing</p>
+              <ul class="list">
+                <li><a href="">instagram</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">facebool</a></li>
+                <li><a href="">linkedin</a></li>
+              </ul>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./img/img11.jpg"
+                alt="Фото Ивана Николаева"
+                width="270"
+              />
+              <h3 class="team-title">Иван Николаев</h3>
+              <p class="team-text">UI Designer</p>
+              <ul class="list">
+                <li><a href="">instagram</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">facebool</a></li>
+                <li><a href="">linkedin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul class="list">
-          <li>
-            <a href=""
-              ><img
-                src="./img/logo1.svg"
-                alt="Логотип компании YA & CO"
-                width="45"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/logo2.svg" alt="Логотип компании2" width="40"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/logo3.svg" alt="Логотип компании3" width="41"
-            /></a>
-          </li>
-          <li>
-            <a href="" class="button"
-              ><img
-                src="./img/logo4.svg"
-                alt="Логотип компании FOSTER PETERS"
-                width="80"
-                class="button"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/logo5.svg" alt="Логотип компании5" width="60"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/logo6.svg" alt="Логотип компании6" width="88"
-            /></a>
-          </li>
-        </ul>
+      <section class="customers">
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="list">
+            <li>
+              <a href=""
+                ><img
+                  src="./img/logo1.svg"
+                  alt="Логотип компании YA & CO"
+                  width="45"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/logo2.svg" alt="Логотип компании2" width="40"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/logo3.svg" alt="Логотип компании3" width="41"
+              /></a>
+            </li>
+            <li>
+              <a href="" class="button"
+                ><img
+                  src="./img/logo4.svg"
+                  alt="Логотип компании FOSTER PETERS"
+                  width="80"
+                  class="button"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/logo5.svg" alt="Логотип компании5" width="60"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/logo6.svg" alt="Логотип компании6" width="88"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
