@@ -99,6 +99,10 @@ a {
   margin-left: 30px;
 }
 
+.site-nav.list {
+  margin-left: 85px;
+}
+
 .site-nav .link-nav:hover,
 .site-nav .link-nav:focus,
 .contact .link-contact:hover,
@@ -110,10 +114,23 @@ a {
   color: var(--primary-accent-color);
 }
 
-.header,
-.site-nav,
+.site-nav {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .contact {
   display: flex;
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav .item:last-child {
