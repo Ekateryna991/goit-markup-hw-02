@@ -47,6 +47,35 @@
 
 /*  */
 
+.advantage-item {
+  display: flex;
+}
+
+.aboutus-item {
+  display: flex;
+}
+
+.advantage-img {
+  margin-bottom: 55px;
+}
+
+. .list-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list .product:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team-person {
+  display: flex;
+}
+
+.person-item:not(:first-child) {
+  margin-left: 30px;
+}
+
 a {
   text-decoration: unset;
 }
@@ -257,6 +286,24 @@ a {
 }
 
 /* страница портфолио */
+
+.nav-portfolio {
+  display: flex;
+  align-items: center;
+}
+
+.nav-portfolio-item + .nav-portfolio-item {
+  margin-left: 8px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works {
+  width: 370px;
+}
 
 .button-nav {
   color: var(--primary-text-color);
